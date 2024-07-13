@@ -1,0 +1,146 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(29, 29, 29) ;
+
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo{
+    color: rgb(185, 226, 0);
+    padding: 0px 10px;
+}
+.nav nav a{
+    color: rgb(185, 226, 0);
+    text-decoration: none;
+    padding: 10px;
+
+}
+nav{
+    padding: 20px 15px;
+}
+.reserva{
+    padding: 0px 15px;
+}
+.reserva ul li {
+    list-style: none;
+    
+}
+.reserva ul li a{
+    text-decoration: none;
+    color:white;
+    border: 1px solid rgb(185, 226, 0);
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+.reserva ul li a:hover{
+    color: black;
+    background-color: rgb(185, 226, 0);
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    body{
+        flex-direction: column;
+    }
+}
+
+.c1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: bisque;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.texto{
+    background-color: rgba(0, 0, 0, 0.527);
+    justify-content: center;
+    padding: 20px 0px;
+    text-align: center;
+}
+.texto ul li {
+    list-style: none;
+}
+.texto ul li a{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(185, 226, 0);
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+.c2 {
+    justify-content: center;
+    text-align: center;
+}
+.txt{
+    color: rgb(185, 226, 0);
+}
+.c_img  {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(3 ,33%);
+    gap: 20px;
+}
+.c_img2{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3 ,33%);
+    gap: 20px;
+}
+.c5{
+    text-align: center;
+}
+.c6 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4 ,25%);
+    gap: 10px;
+}
+.contenedor5{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin: 0px;
+    gap: 10px;
+}
+.contenedor5 p{
+    color: white;
+}
+.div1{
+    grid-column: 1/2;
+}
+.div2{
+    grid-column: 2/3;
+}
+.div3{
+    grid-column: 3/4;
+}
+.div4{
+    grid-column: 4/5;
+}
